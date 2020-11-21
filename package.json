@@ -21,9 +21,6 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "razzle": "3.3.7"
-  },
-  "engines": {
-    "node": "8"
   }
 
 }
