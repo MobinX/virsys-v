@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a:hover,a:focus{
+  text-decoration: none !important;
+  cursor: pointer;
+  color: #26c8a0 !important;
+
+}
