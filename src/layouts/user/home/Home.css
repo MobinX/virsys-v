@@ -1,0 +1,95 @@
+.info-card {
+  width: 40%;
+  margin: 24px;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7px 8px;
+  flex-direction: column;
+  border: 1px solid #6059e8;
+  border-radius: 12px;
+  align-items: flex-start;
+  justify-content: end;
+  color: #6059e8;
+}
+.info-card > .cont > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 2px 5px;
+  padding: 0;
+}
+.info-card > .cont > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 2px 5px;
+  padding: 0;
+}
+.info-card > .ico {
+  width: 84px;
+  height: 84px;
+  font-size: 95px;
+  margin: 17px 2px;
+  margin-top: 7px;
+}
+.weather-card {
+  width: 40%;
+  height: 210px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.weather-card > .cont {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  background: transparent;
+}
+.weather-card > .cont > h1 {
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+}
+.weather-card > .cont > p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+}
+.weather-bg-day {
+  background: linear-gradient(rgba(95, 69, 69, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./assets/daytime-city.jpg");
+}
+.weather-bg-noon {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/noontime-city.jpg");
+}
+.weather-bg-night {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/nighttime-city.jpg");
+}
+@media only screen and (min-width: 600px) {
+  .info-card {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .info-card > .ico {
+    margin: 9px 2px;
+    margin-top: 0px;
+  }
+  .info-card > .cont {
+    margin-bottom: 11px;
+  }
+}
